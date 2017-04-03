@@ -1,0 +1,287 @@
+
+@font-face {
+	font-family: 'Philosopher-Regular';
+	src: url('../fonts/Philosopher-Regular/Philosopher-Regular.eot');
+	src: url('../fonts/Philosopher-Regular/Philosopher-Regular.woff') format('woff'), url('../fonts/Philosopher-Regular/Philosopher-Regular.ttf') format('truetype'), url('../fonts/Philosopher-Regular/Philosopher-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'Philosopher-Bold';
+	src: url('../fonts/Philosopher-Bold/Philosopher-Bold.eot');
+	src: url('../fonts/Philosopher-Bold/Philosopher-Bold.woff') format('woff'), url('../fonts/Philosopher-Bold/Philosopher-Bold.ttf') format('truetype'), url('../fonts/Philosopher-Bold/Philosopher-Bold.svg') format('svg');
+}
+body {
+	background: url(../images/bg-body.jpg) repeat;
+	color: #727272;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#background {
+	background: url(../images/bg-page.jpg) cover;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+
+}
+
+
+.caption {
+	height: auto;
+	color: #F47676;
+	text-align: center;
+	text-shadow: 4px 4px 4px #000000;
+}
+	
+/*navbar*/
+.navbar {
+font-family: Montserrat, sans-serif;
+margin-bottom: 0;
+background-color: #2d2d30;
+border: 0;
+font-size: 11px !important;
+letter-spacing: 4px;
+opacity: 0.9;
+}
+
+.navbar li{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+.navbar > div {
+	color: #fff !important;
+ background-color: #29292c !important;
+}
+
+
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+.dropdown-menu li a {
+  color: #000 !important;
+}
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+
+.loginmodal-container {
+padding: 30px;
+max-width: 350px;
+width: 100% !important;
+background-color: #F7F7F7;
+margin: 0 auto;
+border-radius: 2px;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+overflow: hidden;
+font-family: roboto;
+position: relative;
+}
+
+.loginmodal-container h1 {
+text-align: center;
+font-size: 1.8em;
+font-family: roboto;
+color:black;
+}
+
+.loginmodal-container input[type=submit] {
+width: 100%;
+display: block;
+margin-bottom: 10px;
+position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+height: 44px;
+font-size: 16px;
+width: 100%;
+margin-bottom: 10px;
+-webkit-appearance: none;
+background: #fff;
+border: 1px solid #d9d9d9;
+border-top: 1px solid #c0c0c0;
+/* border-radius: 2px; */
+padding: 0 8px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+border: 1px solid #b9b9b9;
+border-top: 1px solid #a0a0a0;
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+text-align: center;
+font-size: 14px;
+font-family: 'Arial', sans-serif;
+font-weight: 700;
+height: 36px;
+padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+user-select: none; */
+}
+
+.loginmodal-submit {
+/* border: 1px solid #3079ed; */
+border: 0px;
+color: #fff;
+text-shadow: 0 1px rgba(0,0,0,0.1); 
+background-color: #4d90fe;
+padding: 17px 0px;
+font-family: roboto;
+font-size: 14px;
+/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+border: 1px solid #2f5bb7; 
+border: 0px;
+text-shadow: 0 1px rgba(0,0,0,0.3);
+background-color: #357ae8;
+background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); 
+}
+
+.loginmodal-container a {
+text-decoration: none;
+color: #666;
+font-weight: 400;
+text-align: center;
+display: inline-block;
+opacity: 0.6;
+transition: opacity ease 0.5s;
+} 
+
+.login-help{
+font-size: 12px;
+}
+
+
+
+
+div#gifindex {
+	background:url(../images/battleroyal2.gif) no-repeat 0 0;
+	background-size: contain;
+	width: 960px;
+  	height: auto;
+}
+
+#body {
+	background: url(../images/bg-body-header.png) no-repeat top center;
+	margin: 0 auto;
+	padding: 112px 0 0;
+	width: 960px;
+}
+
+
+#body > div {
+	background: url(../images/bg-body-footer.png) no-repeat bottom center;
+	margin: 0;
+	padding: 0 0 114px;
+	width:100%;
+}
+#body > div > div {
+	background: url(../images/bg-body2.png) repeat-y cover;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    margin-top: 15px;
+    border:none;
+    height: 500px;
+
+  }
+#footer {
+	background: url(../images/bg-footer2.png) repeat-x bottom left;
+	margin: 0;
+	padding: 0;
+}
+#footer > div {
+	background: url(../images/bg-footer.png) no-repeat bottom center;
+	margin: 0;
+	text-align: center;
+	padding: 73px 0 42px;
+}
+#footer ul {
+	display: block;
+	margin: 0 auto;
+	padding: 0 0 65px;
+	overflow: hidden;
+	width: 351px;
+}
+#footer ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 22px;
+	padding: 0;
+	
+}
+#footer ul li a {
+	background: url(../images/icons.png) no-repeat;
+	color: #fff;
+	display: block;
+	line-height: 73px;
+	height: 73px;
+	text-decoration: none;
+	text-indent: -99999px;
+	width: 73px;
+}
+#footer ul #facebook a {
+	background-position: 0 0;
+}
+#footer ul #facebook a:hover {
+	background-position: -78px 0;
+}
+#footer ul #twitter a {
+	background-position: 0 -78px;
+}
+#footer ul #twitter a:hover {
+	background-position: -78px -78px;
+}
+#footer ul #googleplus a {
+	background-position: 0 -156px;
+}
+#footer ul #googleplus a:hover {
+	background-position: -78px -156px;
+}
+#footer p {
+	color: #4e5151;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+@media (max-width: 400px) {
+	
+     
+  }
+
+		
